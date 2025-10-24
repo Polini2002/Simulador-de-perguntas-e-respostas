@@ -90,7 +90,15 @@ Para que a API funcione, você precisa criar as tabelas necessárias no banco de
 1.  No pgAdmin, clique no servidor que você acabou de criar (`Projeto ProfEdu`).
 2.  Expanda **Databases** e clique no banco `db_profedu`.
 3.  Clique com o botão direito no banco e selecione **Query Tool** (Ferramenta de Query).
-4.  **Cole o código SQL** para a criação das tabelas e do esquema neste editor. (O código será fornecido posteriormente no seu README, neste local).
+4.  **"create table public.alunos (
+	nome VARCHAR(100),
+	serie CHAR(2),
+	idade int,
+	mat_media float,
+	geo_media float,
+	his_media float
+); " 
+NAO COLE COM AS ""
 5.  Clique no botão **Execute/Play** (Executar) para aplicar o código SQL e criar as tabelas.
 
 -----
