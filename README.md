@@ -17,6 +17,8 @@ Para rodar este projeto localmente, você precisará ter as seguintes ferramenta
   * **VSCode (Visual Studio Code):** O editor de código recomendado para o desenvolvimento.
   * **Node.js (com NPM):** O ambiente de execução e o gerenciador de pacotes necessários para o projeto TypeScript.
 
+-----
+
 ### 3\. 📥 Instalação das Ferramentas
 
 Para instalar todas as ferramentas listadas, siga as instruções oficiais nos respectivos sites:
@@ -29,8 +31,28 @@ Para instalar todas as ferramentas listadas, siga as instruções oficiais nos r
 | **Node.js e NPM** | [Página Oficial do Node.js](https://nodejs.org/en/download/) |
 
 -----
+4. ⬇️ Clonando o Repositório
+Para começar, clone o projeto para sua máquina local usando o terminal:
 
-### 4\. 🐳 Subindo o Banco de Dados via Docker
+Abra seu terminal (ou Powershell).
+
+Navegue até o diretório onde deseja salvar o projeto.
+
+Execute o comando de clone, substituindo [URL_DO_SEU_REPOSITORIO] pela URL real do seu projeto no GitHub:
+
+Bash
+
+git clone [https://github.com/Polini2002/conexao_alunos.git]
+Acesse a pasta do projeto após o clone:
+
+Bash
+
+cd [NOME_DA_PASTA_CLONADA]
+
+
+-----
+
+### 5\. 🐳 Subindo o Banco de Dados via Docker
 
 O banco de dados PostgreSQL será inicializado através de um contêiner Docker.
 
@@ -66,7 +88,7 @@ O banco de dados PostgreSQL será inicializado através de um contêiner Docker.
 
 -----
 
-### 5\. 🔌 Conexão Docker e pgAdmin
+### 6\. 🔌 Conexão Docker e pgAdmin
 
 Após o contêiner estar em execução, você deve conectar o pgAdmin a este banco de dados:
 
@@ -83,7 +105,7 @@ Após o contêiner estar em execução, você deve conectar o pgAdmin a este ban
 
 -----
 
-### 6\. 📝 Configuração do Esquema do Banco de Dados
+### 7\. 📝 Configuração do Esquema do Banco de Dados
 
 Para que a API funcione, você precisa criar as tabelas necessárias no banco de dados `db_profedu`:
 
@@ -103,7 +125,7 @@ NAO COLE COM AS ""
 
 -----
 
-### 7\. 💻 Dando Início ao Projeto Node.js/TypeScript
+### 8\. 💻 Dando Início ao Projeto Node.js/TypeScript
 
 Dentro da pasta do projeto, siga os passos para configurar o ambiente de desenvolvimento.
 
@@ -125,7 +147,7 @@ Dentro da pasta do projeto, siga os passos para configurar o ambiente de desenvo
 
 -----
 
-### 8\. ▶️ Mão na Massa\!
+### 9\. ▶️ Mão na Massa\!
 
 Com o banco de dados configurado no Docker (e as tabelas criadas) e todas as dependências do Node.js instaladas, você está pronto para iniciar o desenvolvimento/uso do projeto\!
 
