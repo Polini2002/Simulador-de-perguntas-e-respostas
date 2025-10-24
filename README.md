@@ -1,4 +1,5 @@
-👋 Claro\! Com base nas informações que você forneceu, preparei um esboço de documentação para o `README.md` do seu projeto no GitHub.
+Integrantes
+Nome: Caio Polini - 2510157, Jhonatas Diniz - 2509018, Ryan Alves - 2511236.
 
 ## 📁 Documentação do Projeto
 
