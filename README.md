@@ -1,5 +1,8 @@
-Integrantes
-Nome: Caio Polini - 2510157, Jhonatas Diniz - 2509018, Ryan Alves - 2511236.
+## Integrantes
+## Caio Polini - 2510157 
+## Gabriela Alves - 2412383
+## Jhonatas Diniz - 2509018 
+## Ryan Alves - 2511236
 
 ## 📁 Documentação do Projeto
 
