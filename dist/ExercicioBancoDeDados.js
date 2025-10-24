@@ -1,4 +1,8 @@
 "use strict";
+//Caio Henry Ferreira Polini - 2510157
+//Gabriela Alves Ciaramicolli 2412383
+//Jhonatas Leite Diniz - 2509018
+//Ryan Alves da Silva - 2511236 
 Object.defineProperty(exports, "__esModule", { value: true });
 // Usando a sintaxe CommonJS 'require' que é 100% compatível
 const { Pool } = require('pg');
