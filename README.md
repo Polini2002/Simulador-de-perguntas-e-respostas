@@ -163,11 +163,7 @@ CREATE TABLE "pontos" (
         ON DELETE CASCADE -- Se o usuário for deletado, suas pontuações somem
 );
     
-    - - Confirma que as perguntas e respostas foram inseridas e ligadas corretamente
-    
-    Clique no botão **Execute/Play** (Executar) para aplicar o código SQL e criar as tabelas.
-    
-
+   
 ### **8.  Dando Início ao Projeto Node.js/TypeScript**
 
 Dentro da pasta do projeto, siga os passos para configurar o ambiente de desenvolvimento.
