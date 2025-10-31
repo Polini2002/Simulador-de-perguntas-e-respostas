@@ -199,6 +199,26 @@ Dentro da pasta do projeto, siga os passos para configurar o ambiente de desenvo
     npx tsc --init
     ```
 
-### 9. Executando o Projeto
+9. Executando o Projeto
 
-Após a configuração, você pode iniciar o projeto. Verifique o arquivo `package.json` para os scripts de execução definidos (ex: `npm start` ou `npm run dev`).
+Com o banco de dados configurado e as dependências instaladas, você está pronto para rodar o quiz. O projeto é escrito em TypeScript (.ts), mas é executado como JavaScript (.js).
+
+Siga este processo de dois passos:
+
+Compilar o TypeScript:
+Primeiro, você precisa "traduzir" seu arquivo ExercicioBancoDeDados.ts para um arquivo ExercicioBancoDeDados.js que o Node.js entenda.
+
+`npx tsc`
+
+
+(Este comando irá ler o tsconfig.json e compilar todos os arquivos .ts do projeto).
+
+Executar o JavaScript:
+Agora que o arquivo .js foi criado (ou atualizado), execute-o com o Node:
+
+`node ExercicioBancoDeDados.js`
+
+
+O menu principal do quiz aparecerá no seu terminal, permitindo que você jogue ou cadastre novas perguntas.
+
+Nota: Sempre que você fizer qualquer alteração no arquivo ExercicioBancoDeDados.ts, você deve repetir o passo 1 (npx tsc) para que suas mudanças sejam refletidas no arquivo .js antes de executar.
