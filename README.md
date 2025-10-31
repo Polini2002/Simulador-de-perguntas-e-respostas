@@ -1,9 +1,9 @@
 ## Autores do Projeto
-
 * Caio Polini - 2510157
 * Gabriela Alves - 2412383
 * Jhonatas Diniz - 2509018
 * Ryan Alves - 2511236
+* Turma: CCO-1/2-B-N
 
 ---
 
