@@ -1,7 +1,7 @@
 {
   "name": "escrever-no-banco",
   "version": "1.0.0",
-  "description": "",
+  "description": "=======\r ## Integrantes\r ## Caio Polini - 2510157 \r ## Gabriela Alves - 2412383\r ## Jhonatas Diniz - 2509018 \r ## Ryan Alves - 2511236",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,8 +14,18 @@
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
-    "@types/pg": "^8.10.9",
+    "@types/node": "^24.9.2",
+    "@types/pg": "^8.15.6",
     "@types/readline-sync": "^1.4.8",
-    "typescript": "^5.2.2"
-  }
+    "typescript": "^5.9.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Polini2002/conexao_alunos.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Polini2002/conexao_alunos/issues"
+  },
+  "homepage": "https://github.com/Polini2002/conexao_alunos#readme"
 }
