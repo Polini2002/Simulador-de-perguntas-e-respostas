@@ -37,10 +37,10 @@ Para instalar todas as ferramentas listadas, siga as instruções oficiais nos r
 
 1.  Abra seu terminal (ou PowerShell).
 2.  Navegue até o diretório onde deseja salvar o projeto.
-3.  Execute o comando de clone, substituindo `<[https://github.com/Polini2002/Simulador-de-perguntas-e-respostas]>` pela URL real do seu projeto:
+3.  Execute o comando de clone, substituindo `https://github.com/Polini2002/Simulador-de-perguntas-e-respostas` pela URL real do seu projeto:
 
     ```bash
-    git clone <https://github.com/Polini2002/Simulador-de-perguntas-e-respostas>
+    git clone https://github.com/Polini2002/Simulador-de-perguntas-e-respostas
     ```
 
 4.  Acesse a pasta do projeto após o clone:
